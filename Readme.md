@@ -16,11 +16,12 @@ Docker 4.5.0 (74594)
 
 ## Building
 
-For building the jar of the application run the following:
+For building the jar of the application make sure that your docker machine is running and after use the following:
 
 ````
 mvn clean install
 ````
+This will also run the tests.
 
 ## Running
 
