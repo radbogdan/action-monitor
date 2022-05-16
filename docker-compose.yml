@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  action-monitor:
+    container_name: action-monitor
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: action-monitor:latest
+    environment:
+      spring_data_mongodb_host: ${HOST_NAME}
+    depends_on:
+      - db
+    ports:
+      - 8080:8080
+  db:
+    hostname: ${HOST_NAME}
+    image: mongo:latest
+    ports:
+      - 27017:27017
