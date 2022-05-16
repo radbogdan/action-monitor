@@ -37,7 +37,7 @@ Finally, is running and you can check in the browser client on http://localhost:
 
 # Architecture diagram
 
-![](assets/Application-monitor architecture.png)
+![](assets/application-monitor-architecture.png)
 
 # Test the application
 
