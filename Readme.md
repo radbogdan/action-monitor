@@ -68,6 +68,14 @@ curl --location --request PUT 'localhost:8080/api/v1/message/{someId}' \
 
 curl --location --request DELETE 'localhost:8080/api/v1/message/{someId}'
 
+5. Retrieve status of the application
+
+curl --location --request GET 'localhost:8080/api/v1/status'
+
+6. Retrieve the version of the application
+
+curl --location --request GET 'localhost:8080/api/v1/version'
+
 ````
 
 All the information is visible in the browser
