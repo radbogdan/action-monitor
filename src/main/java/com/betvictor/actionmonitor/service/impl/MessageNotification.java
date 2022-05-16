@@ -1,6 +1,7 @@
-package com.betvictor.actionmonitor.service;
+package com.betvictor.actionmonitor.service.impl;
 
 import com.betvictor.actionmonitor.config.WebSocketProperties;
+import com.betvictor.actionmonitor.service.Notification;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Component;
